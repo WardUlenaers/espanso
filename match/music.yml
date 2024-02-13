@@ -1,0 +1,68 @@
+matches:
+# > I have a lot of music/audio related hobbies, Below are some of the triggers i use
+# Som rule of thumbs to follow: n = name, e = e-mail, s = site, ig = instagram, fb = facebook, 
+
+  # Bands
+    ## Spiegelei inC.
+  - trigger: ";ei.n"
+    replace: "Spiegelei inC."
+  - trigger: ";ei.e"
+    replace: "omelet@spiegelei-inc.be"
+  - trigger: ";ei.s"
+    replace: "https://www.spiegelei-inc.be/"
+  - trigger: ";ei.ig"
+    replace: "https://www.instagram.com/spiegeleiinc/"
+  - trigger: ";ei.fb"
+    replace: "https://www.facebook.com/spiegeleiinc"
+
+  ## Humming
+  - trigger: ";hum.n"
+    replace: "Hummingbird"
+  - trigger: ";hum.e"
+    replace: "hummingbirdsings2U2@gmail.com"
+  - trigger: ";hum.s"
+    replace: "https://vi.be/platform/hummingbird"
+  - trigger: ";hum.ig"
+    replace: "https://www.instagram.com/hummingbirdsings2u2/"
+  - trigger: ";hum.fb"
+    replace: "https://www.facebook.com/profile.php?id=100047608250100"
+
+  # Koor
+  - trigger: ";ccr.s"
+    replace: "https://www.ccr-choirs.be/"
+
+  ## Rejoice
+  - trigger: ";rej.e"
+    replace: "jeugdkoor.rejoice@gmail.com"
+  - trigger: ";rej.l.e"
+    replace: "leden@rejoice.be"
+  - trigger: ";rej.b.e"
+    replace: "stuurgroep@rejoice.be"
+  - trigger: ";rej.s"
+    replace: "http://rejoice.be/"
+  
+  ## Cocon
+  - trigger: ";cocon.e"
+    replace: "info@kinderkoorcocon.be."
+  - trigger: ";cocon.s"
+    replace: "https://kinderkoorcocon.be/"
+  - trigger: ";cocon.fb"
+    replace: "https://www.facebook.com/cocon.kinderkoor"
+  - trigger: ";cocon.ig"
+    replace: "https://www.instagram.com/cocon.kinderkoor/"
+  
+  ## ChoriX
+  - trigger: ";chorix.e"
+    replace: "info@chorix.be"
+  - trigger: ";chorix.s"
+    replace: "https://chorix.be/"
+  - trigger: ";chorix.fb"
+    replace: "https://www.facebook.com/profile.php?id=100063661892169"
+  - trigger: ";chorix.ig"
+    replace: "https://www.instagram.com/chorixchoir/"
+
+  ## Cantemus
+  - trigger: ";cantemus.s"
+    replace: "https://cantemusmerksem.be/"
+  - trigger: ";cantemus.fb"
+    replace: "https://www.facebook.com/cantemusmerksem/"

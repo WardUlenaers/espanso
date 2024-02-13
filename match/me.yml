@@ -1,0 +1,15 @@
+matches:
+
+  # Ward Ulenaers
+  - trigger: ";me.n"
+    replace: "Ward Ulenaers"
+  - trigger: ";me.e"
+    replace: "ward.ulenaers21@gmail.com"
+  - trigger: ";me.gh"
+    replace: "https://github.com/UnrealWard21"
+  - trigger: ";me.linkedin"
+    replace: "https://www.linkedin.com/in/wardulenaers/"
+  - trigger: ";me.twitter"
+    replace: "https://twitter.com/ulenaers21"
+  - trigger: ";me.yt"
+    replace: "https://www.youtube.com/@bwart2126"

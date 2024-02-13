@@ -1,0 +1,48 @@
+matches:
+# This is my obsidian espanso match file
+
+
+  # Obsidian
+  ## General
+  - trigger: ";obs.com"
+    replace: "https://obsidian.md/community"
+  - trigger: ";obs.docs"
+    replace: "https://docs.obsidian.md"
+  - trigger: ";obs.discord"
+    replace: "https://discord.gg/obsidianmd"
+  - trigger: ";obs.forum"
+    replace: "https://forum.obsidian.md/"
+  - trigger: ";op"
+    replace: "Obsidian Publish"
+  - trigger: ";os"
+    replace: "Obsidian Sync"
+
+  ## Time related
+  - trigger: ";today"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "[[%Y-%m-%d]]"
+  - trigger: ";ts"
+    replace: "{{timestamp}}"    
+    vars:
+      - name: timestamp
+        type: date
+        params:
+          format: "%H:%m"
+
+  ## Plugins
+  ### Dataview
+  - trigger: ";dataview.docs"
+    replace: "https://blacksmithgu.github.io/obsidian-dataview/"
+  
+  ### Templater
+  - trigger: ";templater.docs"
+    replace: "https://silentvoid13.github.io/Templater/" 
+
+
+  ## Emoji's
+  - trigger: ";e.int"
+    replace: "🌐"
